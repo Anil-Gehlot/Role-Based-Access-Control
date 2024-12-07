@@ -17,7 +17,7 @@ function App() {
             <Navbar />
             <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
               <Routes>
-                <Route path="/login" element={<Login />} />
+                <Route path="/" element={<Login />} />
                 <Route path="/dashboard" element={
                   <ProtectedRoute>
                     <Dashboard />
